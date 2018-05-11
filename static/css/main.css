@@ -89,6 +89,7 @@ div.content
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     color: #bbb;
+    line-height: 135%;
 }
 .error
 {
@@ -228,6 +229,12 @@ section.meta {
 .social a
 {
     color: #526d7a;
+}
+.social > * {
+    margin-left: 30px;
+}
+.social > *:first-child {
+    margin-left: 0;
 }
 .title
 {
